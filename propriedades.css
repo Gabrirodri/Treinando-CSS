@@ -1,0 +1,109 @@
+body{
+    background-color: #bebebe;
+}
+.header{
+width: 100%;
+height: 300px;
+background-color: turquoise;
+
+}
+
+.content{
+    background-color: black;
+    width: 20%;
+    height: 200px;
+    border: 2px red solid;
+    margin:  0 50px;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#A1{
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    height: 50%;
+    color: white;
+    border: 2px greenyellow solid;
+}
+
+#B1{
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    color: white;
+    display: inline-block;
+    background-image: url(/code-pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50px ;
+    border: 6px greenyellow solid;
+    border-radius: 20px;
+}
+
+#C1{
+    background-color: green;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    border: 2px red solid;
+    display: inline-block;
+    text-align: center;
+}
+#D1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+    border: 2px greenyellow solid;
+    display: block;
+}
+#E1{
+    background-color: blue;
+    color: white;
+    margin-top: 2px ;
+    width: 200px;
+    font-family:  Helvetica, sans-serif;
+    height: 150px;
+    border: 2px yellow solid;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+}
+#D2{
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px blue solid;
+}
+#D2:active{
+    background-color: yellow;
+    color: blue;
+    font-size: 30px;
+}
+#F1{
+    display: block;
+    float: right;
+    height: 200px;
+    width: 200px;
+    background-color: turquoise;
+    text-align: center;
+    border: black solid 5px;
+    border-radius: 20px;
+
+}
+#fix{
+    clear: both;
+}
+#F1:hover{
+background-color: blue;
+color: white;
+font-size: 30px;
+}
